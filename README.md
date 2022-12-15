@@ -20,13 +20,21 @@ Use the /quitjob command in the chat to end the job.
 The TAXI_JOB table in taxi_job/jobs/taxi_job.lua contains the configuration for the taxi job. You can modify the following parameters to customize the job:
 
 name: The name of the job. This is used in the /job command to start the job.
+
 display_name: The display name of the job. This is shown in the chat and UI when the job is started.
+
 checkpoints: The locations of the checkpoints where passengers can be picked up and dropped off.
+
 min_passengers: The minimum number of passengers for each taxi ride.
+
 max_passengers: The maximum number of passengers for each taxi ride.
+
 min_distance: The minimum distance for each taxi ride.
+
 max_distance: The maximum distance for each taxi ride.
+
 vehicle_model: The model of the vehicle used for the taxi job.
+
 vehicle_spawn: The location where the taxi vehicle will be spawned.
 
 # License
