@@ -3,17 +3,23 @@ This is a simple taxi job for FiveM standalone sandbox servers. It allows player
 
 # Requirements
 FiveM
+
 A standalone sandbox server
 
 # Installation
 Copy the taxijob folder to your resources directory on your server.
+
 Add start taxi to your server.cfg file.
+
 Start the server.
 
 # Usage
 Start the taxi job using the /job command in the chat, followed by the name of the job (e.g. /job taxi).
+
 Drive to the checkpoints and pick up passengers.
+
 Drop off the passengers at their destination to earn money.
+
 Use the /quitjob command in the chat to end the job.
 
 # Configuration
