@@ -1,22 +1,22 @@
-#FiveM Taxi Job
+# FiveM Taxi Job
 This is a simple taxi job for FiveM standalone sandbox servers. It allows players to become taxi drivers and earn money by picking up and dropping off passengers at various checkpoints around the map.
 
-#Requirements
+# Requirements
 FiveM
 A standalone sandbox server
 
-#Installation
+# Installation
 Copy the taxi_job folder to your resources directory on your server.
 Add start taxi_job to your server.cfg file.
 Start the server.
 
-#Usage
+# Usage
 Start the taxi job using the /job command in the chat, followed by the name of the job (e.g. /job taxi).
 Drive to the checkpoints and pick up passengers.
 Drop off the passengers at their destination to earn money.
 Use the /quitjob command in the chat to end the job.
 
-#Configuration
+# Configuration
 The TAXI_JOB table in taxi_job/jobs/taxi_job.lua contains the configuration for the taxi job. You can modify the following parameters to customize the job:
 
 name: The name of the job. This is used in the /job command to start the job.
@@ -29,5 +29,5 @@ max_distance: The maximum distance for each taxi ride.
 vehicle_model: The model of the vehicle used for the taxi job.
 vehicle_spawn: The location where the taxi vehicle will be spawned.
 
-#License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
