@@ -7,7 +7,7 @@ A standalone sandbox server
 
 # Installation
 Copy the taxijob folder to your resources directory on your server.
-Add start taxiJob to your server.cfg file.
+Add start taxi to your server.cfg file.
 Start the server.
 
 # Usage
