@@ -6,8 +6,8 @@ FiveM
 A standalone sandbox server
 
 # Installation
-Copy the taxi_job folder to your resources directory on your server.
-Add start taxi_job to your server.cfg file.
+Copy the taxijob folder to your resources directory on your server.
+Add start taxiJob to your server.cfg file.
 Start the server.
 
 # Usage
@@ -17,7 +17,7 @@ Drop off the passengers at their destination to earn money.
 Use the /quitjob command in the chat to end the job.
 
 # Configuration
-The TAXI_JOB table in taxi_job/jobs/taxi_job.lua contains the configuration for the taxi job. You can modify the following parameters to customize the job:
+The taxiJob table in taxiJob.lua contains the configuration for the taxi job. You can modify the following parameters to customize the job:
 
 name: The name of the job. This is used in the /job command to start the job.
 
