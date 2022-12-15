@@ -28,5 +28,6 @@ min_distance: The minimum distance for each taxi ride.
 max_distance: The maximum distance for each taxi ride.
 vehicle_model: The model of the vehicle used for the taxi job.
 vehicle_spawn: The location where the taxi vehicle will be spawned.
-License
+
+#License
 This project is licensed under the MIT License - see the LICENSE file for details.
